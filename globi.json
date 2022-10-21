@@ -1,0 +1,110 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "interactionTypeName" : "flowersVisitedBy",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002623",
+    "url" : "Supplement+1_+Garden+plant-pollinator+data.csv",
+    "dcterms:bibliographicCitation" : "Ollerton, J., Trunschke, J. ., Havens, K. ., Landaverde-González, P. ., Keller, A. ., Gilpin, A.-M. ., Rodrigo Rech, A. ., Baronio, G. J. ., Phillips, B. J., Mackin, C. ., Stanley, D. A., Treanore, E. ., Baker, E. ., Rotheray, E. L., Erickson, E. ., Fornoff, F. ., Brearley, F. Q. ., Ballantyne, G. ., Iossa, G. ., Stone, G. N., Bartomeus, I. ., Stockan, J. A., Leguizamón, J., Prendergast, K. ., Rowley, L., Giovanetti, M., de Oliveira Bueno, R., Wesselingh, R. A., Mallinger, R., Edmondson, S., Howard, S. R., Leonhardt, S. D., Rojas-Nossa, S. V., Brett, M., Joaqui, T., Antoniazzi, R., Burton, V. J., Feng, H.-H., Tian, Z.-X., Xu, Q., Zhang, C., Shi, C.-L., Huang, S.-Q., Cole, L. J., Bendifallah, L., Ellis, E. E., Hegland, S. J., Straffon Díaz, S., Lander, T. A. ., Mayr, A. V., Dawson, R. ., Eeraerts, M. ., Armbruster, W. S. ., Walton, B. ., Adjlane, N. ., Falk, S. ., Mata, L. ., Goncalves Geiger, A. ., Carvell, C. ., Wallace, C. ., Ratto, F. ., Barberis, M. ., Kahane, F. ., Connop, S. ., Stip, A. ., Sigrist, M. R. ., Vereecken, N. J. ., Klein, A.-M., Baldock, K. ., & Arnold, S. E. J. . (2022). Pollinator-flower interactions in gardens during the COVID-19 pandemic lockdown of 2020. Journal of Pollination Ecology, 31, 87–96. https://doi.org/10.26786/1920-7603(2022)695",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "localityId",
+        "titles" : "Five letter identifier",
+        "datatype" : "string"
+      }, {
+        "name" : "Survey type",
+        "titles" : "Survey type",
+        "datatype" : "string"
+      }, {
+        "name" : "eventDate",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Day of year",
+        "titles" : "Day of year",
+        "datatype" : "string"
+      }, {
+        "name" : "Start time",
+        "titles" : "Start time",
+        "datatype" : "string"
+      }, {
+        "name" : "Duration (min)",
+        "titles" : "Duration (min)",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Plant Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Plant genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecies",
+        "titles" : "Plant species",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant species comments",
+        "titles" : "Plant species comments",
+        "datatype" : "string"
+      }, {
+        "name" : "Total floral  cover (m2)",
+        "titles" : "Total floral  cover (m2)",
+        "datatype" : "string"
+      }, {
+        "name" : "Number of floral units",
+        "titles" : "Number of floral units",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Flower visitor order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Flower visitor family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "Flower visitor genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecies",
+        "titles" : "Flower visitor species",
+        "datatype" : "string"
+      }, {
+        "name" : "Sex/caste",
+        "titles" : "Sex/caste",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower visitor species comments",
+        "titles" : "Flower visitor species comments",
+        "datatype" : "string"
+      }, {
+        "name" : "Number of individuals",
+        "titles" : "Number of individuals",
+        "datatype" : "string"
+      }, {
+        "name" : "Number of flowers visited",
+        "titles" : "Number of flowers visited",
+        "datatype" : "string"
+      }, {
+        "name" : "Photo or specimen taken?",
+        "titles" : "Photo or specimen taken?",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
